@@ -1,0 +1,11 @@
+InOrder Traverse Time
+
+1,000 nodes:		38,575,100 nanosec
+
+10,000 nodes:		195,281,400 nanosec (0.19 sec)
+
+100,000 nodes:		1,183,254,300 nanosec (1.18 sec)
+
+1,000,000 nodes:	21.78 seconds
+
+10,000,000 nodes:	Beyond threshold
