@@ -1,0 +1,44 @@
+CSIS 2420
+Week 11
+Hash
+Jonathan Bodily
+
+hashArray[3]
+
+Aaron = 12800 nanoseconds, 0.000013 seconds
+Zuniga = 108600 nanoseconds, 0.000109 seconds
+Joseph = 53800 nanoseconds, 0.000054 seconds
+Shelley = 95600 nanoseconds, 0.000096 seconds
+Archibald = 14800 nanoseconds, 0.000015 seconds
+
+hashArray[50]
+
+Aaron = 13400 nanoseconds, 0.000013 seconds
+Zuniga = 19400 nanoseconds, 0.000019 seconds
+Joseph = 17800 nanoseconds, 0.000018 seconds
+Shelley = 18300 nanoseconds, 0.000018 seconds
+Archibald = 15000 nanoseconds, 0.000015 seconds
+
+hashArray[100]
+
+Aaron = 15200 nanoseconds, 0.000015 seconds
+Zuniga = 20900 nanoseconds, 0.000021 seconds
+Joseph = 14500 nanoseconds, 0.000015 seconds
+Shelley = 21500 nanoseconds, 0.000022 seconds
+Archibald = 14900 nanoseconds, 0.000015 seconds
+
+hashArray[1000]
+
+Aaron = 16100 nanoseconds, 0.000016 seconds
+Zuniga = 17100 nanoseconds, 0.000017 seconds
+Joseph = 19000 nanoseconds, 0.000019 seconds
+Shelley = 17800 nanoseconds, 0.000018 seconds
+Archibald = 13100 nanoseconds, 0.000013 seconds
+
+There was a good improvement in performance from 
+hashArray[3] to hashArray[50]. After that though, the
+results don't seem to give any discernable improvement,
+or if it does, it is inconsistent enough for me to not
+be able to see it. If I had to guess at the optimal 
+number though, I might say between 50 and 100.
+If there were 4,500,000 records, perhaps 100,000 ish.
